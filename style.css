@@ -1,0 +1,52 @@
+.container-fluid{
+    /* background-color:rgb(8, 210, 255); */
+    height: 90px;
+    font-size:30px;
+    flex: auto;
+    display: flex;
+    position: sticky;
+    /* border: 2px solid white; */
+}
+.navbar-nav{
+    display: flex;
+}
+.nav-link{
+    font-size: 2.5vh;
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px;
+    margin: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand{
+    font-size: 3.5vh;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+   margin: 20px 30px 80px 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.three-images{
+    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+}
+.img1:hover{
+    transition:ease .5s;
+    transform:scale(1.2);
+}
+.img2:hover{
+    transition:ease .5s;
+    transform:scale(1.2);
+}
+.img3:hover{
+    transition:ease .5s;
+    transform:scale(1.2);
+}
+.nav-link:hover{
+    color: skyblue;
+
+}
